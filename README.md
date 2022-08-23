@@ -1,12 +1,19 @@
-<h1>CMPG-323-Project-2</h1>
+    <h1>CMPG-323-Project-2</h1>
     <p>Project 2 for CMPG 323. In this project we will be designing an API.</p>
     <p>
         For my project my API will be used to interface with<br>
         The Marius Ella Holiday Apartment block Database<br>
-        This will later enable the front end to have access to <br>
+        This will later enable the front end to have access to<br>
         modify and maintain the correct data of each user.
     </p>
+    <h1>I will be incorporating CRUD (Create Read Update Delete) as the operations available</h1>
     <h1>This project will reach it's end in 2022-09-08</h1>
+    <h1>Project Properties</h1>
+    <p>
+        The API will be created using C# .Net Core Web API. <br>
+        For documentation the API will be incorporating swagger to create <br>
+        and deploy the documentation.
+    </p>
     <h1>There will be 3 Branches:</h1>
     <ul>
         <li>Main: The active branch which holds the most stable version</li>
