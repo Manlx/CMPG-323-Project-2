@@ -1,10 +1,10 @@
 <h1>CMPG-323-Project-2</h1>
     <p>Project 2 for CMPG 323. In this project we will be designing an API.</p>
     <p>
-        For my project my API will be used to interface with
-        The Marius Ella Holiday Apartment block Database
-        This will later enable the front end to have access to modify and maintain the correct
-        data of each user.
+        For my project my API will be used to interface with<br>
+        The Marius Ella Holiday Apartment block Database<br>
+        This will later enable the front end to have access to <br>
+        modify and maintain the correct data of each user.
     </p>
     <h1>This project will reach it's end in 2022-09-08</h1>
     <h1>There will be 3 Branches:</h1>
