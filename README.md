@@ -8,11 +8,17 @@
 </p>
 <h1>I will be incorporating CRUD (Create Read Update Delete) as the operations available</h1>
 <h1>This project will reach it's end in 2022-09-08</h1>
-<h1>Project Properties</h1>
+<h1>API Properties</h1>
 <p>
     The API will be created using C# .Net Core Web API. <br>
     For documentation the API will be incorporating swagger to create <br>
-    and deploy the documentation.
+    and deploy the documentation. <br>
+</p>
+<h1>Database Properties</h1>
+<p>
+    The database will be running on Microsoft SQL Server. Allowing me to use the <br>
+    Microsoft Entity framework. <br>
+    //Will link ERD of database later.
 </p>
 <h1>There will be 3 Branches:</h1>
 <ul>
