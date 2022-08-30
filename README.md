@@ -12,16 +12,16 @@
     For documentation the API will be incorporating swagger to create <br>
     and deploy the documentation. <br>
 </p>
-<!-- <img src="https://mfdot.com/API.drawio.svg" alt="" srcset=""><br> -->
-![API drawio](https://user-images.githubusercontent.com/74509303/187557775-805d6391-8118-4870-897e-4ebd9d3fc2fb.svg)
+<img src="https://mfdot.com/API.drawio.svg" alt="" srcset=""><br>
+<!-- ![API drawio](https://user-images.githubusercontent.com/74509303/187557775-805d6391-8118-4870-897e-4ebd9d3fc2fb.svg) -->
 
 
 <h1>Database Properties</h1>
 <p>
     The database will be running on Microsoft SQL Server. Allowing me to use the <br>
     Microsoft Entity framework. <br>
-<!--     <img src="https://mfdot.com/Database%20ERD.drawio.svg"> -->
-    ![Database ERD drawio](https://user-images.githubusercontent.com/74509303/187557724-ee264cae-5d52-4bb6-b692-6e4cbd690392.svg)
+    <img src="https://mfdot.com/Database%20ERD.drawio.svg">
+<!--     ![Database ERD drawio](https://user-images.githubusercontent.com/74509303/187557724-ee264cae-5d52-4bb6-b692-6e4cbd690392.svg) -->
 
 </p>
 
@@ -34,9 +34,8 @@
     <li>Swagger Dev: The original branch to test and configure Swagger</li>
     <li>Swagger Inject: Based on the basic API branch is where Swagger was added after having a successfull scaffold build</li>
 </ul>
-<!-- <img src="https://mfdot.com/BranchesProject2.drawio.svg" alt="" srcset=""> -->
-![BranchesProject2 drawio](https://user-images.githubusercontent.com/74509303/187557751-a5ee2240-8a9c-44de-8ea3-6611be8d51c4.svg)
-
+<img src="https://mfdot.com/BranchesProject2.drawio.svg" alt="" srcset="">
+<!-- ![BranchesProject2 drawio](https://user-images.githubusercontent.com/74509303/187557751-a5ee2240-8a9c-44de-8ea3-6611be8d51c4.svg) -->
 
 <h1>Progress report</h1>
 <p>
