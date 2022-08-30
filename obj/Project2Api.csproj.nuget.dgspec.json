@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Programming_And_Stuff\\Programming\\Git\\CMPG-323-Project-2-34551875\\Project2Api.csproj": {}
+    "F:\\Programming_And_Stuff\\Programming\\Git\\CMPG-323-Project-2-34551875\\Project2API.csproj": {}
   },
   "projects": {
-    "F:\\Programming_And_Stuff\\Programming\\Git\\CMPG-323-Project-2-34551875\\Project2Api.csproj": {
+    "F:\\Programming_And_Stuff\\Programming\\Git\\CMPG-323-Project-2-34551875\\Project2API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Programming_And_Stuff\\Programming\\Git\\CMPG-323-Project-2-34551875\\Project2Api.csproj",
-        "projectName": "Project2Api",
-        "projectPath": "F:\\Programming_And_Stuff\\Programming\\Git\\CMPG-323-Project-2-34551875\\Project2Api.csproj",
+        "projectUniqueName": "F:\\Programming_And_Stuff\\Programming\\Git\\CMPG-323-Project-2-34551875\\Project2API.csproj",
+        "projectName": "Project2API",
+        "projectPath": "F:\\Programming_And_Stuff\\Programming\\Git\\CMPG-323-Project-2-34551875\\Project2API.csproj",
         "packagesPath": "C:\\Users\\Manlx\\.nuget\\packages\\",
         "outputPath": "F:\\Programming_And_Stuff\\Programming\\Git\\CMPG-323-Project-2-34551875\\obj\\",
         "projectStyle": "PackageReference",
@@ -63,6 +63,14 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.28, )"
+            },
+            "Microsoft.OpenApi": {
+              "target": "Package",
+              "version": "[1.3.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
             }
           },
           "imports": [
