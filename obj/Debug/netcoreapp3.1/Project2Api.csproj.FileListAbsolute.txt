@@ -130,3 +130,8 @@ F:\Programming_And_Stuff\Programming\Git\CMPG-323-Project-2-34551875\bin\Debug\n
 F:\Programming_And_Stuff\Programming\Git\CMPG-323-Project-2-34551875\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 F:\Programming_And_Stuff\Programming\Git\CMPG-323-Project-2-34551875\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 F:\Programming_And_Stuff\Programming\Git\CMPG-323-Project-2-34551875\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Programming_And_Stuff\Programming\Git\CMPG-323-Project-2-34551875\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+F:\Programming_And_Stuff\Programming\Git\CMPG-323-Project-2-34551875\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+F:\Programming_And_Stuff\Programming\Git\CMPG-323-Project-2-34551875\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\Programming_And_Stuff\Programming\Git\CMPG-323-Project-2-34551875\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\Programming_And_Stuff\Programming\Git\CMPG-323-Project-2-34551875\obj\Debug\netcoreapp3.1\Project2Api.MvcApplicationPartsAssemblyInfo.cs
