@@ -29,7 +29,6 @@
     <li>Swagger Dev: The original branch to test and configure Swagger</li>
     <li>Swagger Inject: Based on the basic API branch is where Swagger was added after having a successfull scaffold build</li>
 </ul>
-<img src="https://mfdot.com/BranchesProject2.drawio.svg" alt="" srcset="">
 
 
 <h1>Progress report</h1>
