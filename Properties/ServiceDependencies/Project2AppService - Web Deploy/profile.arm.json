@@ -21,7 +21,7 @@
     },
     "resourceName": {
       "type": "string",
-      "defaultValue": "Project-2-Service",
+      "defaultValue": "Project2AppService",
       "metadata": {
         "description": "Name of the main resource to be created by this template."
       }

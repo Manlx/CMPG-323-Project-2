@@ -80,3 +80,71 @@ INSERT INTO [dbo].[Category]
 		   ,GETDATE()
 		   )
 GO
+GO
+
+INSERT INTO [dbo].[Zone]
+           ([ZoneID]
+           ,[ZoneName]
+           ,[ZoneDescription]
+           ,[DateCreated])
+     VALUES
+           (NEWID()
+           ,'Local Zone'
+           ,'Devices running in the homes of clients'
+           ,GETDATE())
+GO
+INSERT INTO [dbo].[Zone]
+           ([ZoneID]
+           ,[ZoneName]
+           ,[ZoneDescription]
+           ,[DateCreated])
+     VALUES
+           (NEWID()
+           ,'Device Zone'
+           ,'Devices running in proximity of other IoT devices'
+           ,GETDATE())
+GO
+INSERT INTO [dbo].[Zone]
+           ([ZoneID]
+           ,[ZoneName]
+           ,[ZoneDescription]
+           ,[DateCreated])
+     VALUES
+           (NEWID()
+           ,'Field Gate Zone'
+           ,'This zone contains the all devices that reside in the Field Gate Zone'
+           ,GETDATE())
+GO
+INSERT INTO [dbo].[Zone]
+           ([ZoneID]
+           ,[ZoneName]
+           ,[ZoneDescription]
+           ,[DateCreated])
+     VALUES
+           (NEWID()
+           ,'Cloud Gateway Zone'
+           ,'Contains the message broker or message queue.'
+           ,GETDATE())
+GO
+INSERT INTO [dbo].[Zone]
+           ([ZoneID]
+           ,[ZoneName]
+           ,[ZoneDescription]
+           ,[DateCreated])
+     VALUES
+           (NEWID()
+           ,'Gateway and Services Zone'
+           ,'This zone holds all of the backend services.'
+           ,GETDATE())
+GO
+INSERT INTO [dbo].[Zone]
+           ([ZoneID]
+           ,[ZoneName]
+           ,[ZoneDescription]
+           ,[DateCreated])
+     VALUES
+           (NEWID()
+           ,'Remote User Zone'
+           ,'Contains the pieces of the solution provided for some types of remote or external access to users or third parties.'
+           ,GETDATE())
+GO
