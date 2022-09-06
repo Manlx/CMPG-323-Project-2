@@ -5,13 +5,14 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Project2API.Authentication;
 using Project2API.Models;
 
 namespace Project2API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
+    //[Authorize(Roles = UserRoles.Admin)]
     public class DevicesController : ControllerBase
     {
         private readonly ConnectedOfficeContext _context;
@@ -23,6 +24,7 @@ namespace Project2API.Controllers
 
         // GET: api/Devices
         [HttpGet]
+        [Authorize(Roles = UserRoles.Admin)]
         public async Task<ActionResult<IEnumerable<Device>>> GetDevice()
         {
             return await _context.Device.ToListAsync();
@@ -30,6 +32,7 @@ namespace Project2API.Controllers
 
         // GET: api/Devices/5
         [HttpGet("{id}")]
+        
         public async Task<ActionResult<Device>> GetDevice(Guid id)
         {
             var device = await _context.Device.FindAsync(id);
