@@ -37,17 +37,6 @@
     <li>https://project2apiconnectedoffice.azurewebsites.net/api/Devices/{ID}</li>
     <li>https://project2apiconnectedoffice.azurewebsites.net/api/Zones/{ID}</li>
 </ul>
-<h4>All PUTS by ID</h4>
-<ul>
-    <li>https://project2apiconnectedoffice.azurewebsites.net/api/Categories/{ID}</li>
-    <li>https://project2apiconnectedoffice.azurewebsites.net/api/Devices/{ID}</li>
-    <li>https://project2apiconnectedoffice.azurewebsites.net/api/Zones/{ID}</li>
-</ul>
-<h4>All DELETE by ID Using CURL</h4>
-curl -X 'DELETE' \
-  'https://project2apiconnectedoffice.azurewebsites.net/api/Categories/5f291fc8-2e31-11ed-a261-0242ac120002' \
-  -H 'accept: text/plain' \
-  -H 'Authorization: Bearer {TOKEN}'
 <img src="https://mfdot.com/API.drawio.svg" alt="" srcset=""><br>
 <!-- ![API drawio](https://user-images.githubusercontent.com/74509303/187557775-805d6391-8118-4870-897e-4ebd9d3fc2fb.svg) -->
 
