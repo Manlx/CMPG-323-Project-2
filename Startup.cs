@@ -29,8 +29,8 @@ namespace Project2API
             services.AddSwaggerGen(c => {
                 c.SwaggerDoc("v2", new OpenApiInfo
                 {
-                    Title = "JWTToken_Auth_API",
-                    Version = "v2"
+                    Title = "Project 2 34551875",
+                    Version = "V1.1 JWT"
                 });
                 c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme()
                 {
@@ -90,7 +90,7 @@ namespace Project2API
                 endpoints.MapControllers();
             });
             app.UseSwagger();
-            app.UseSwaggerUI(options => options.SwaggerEndpoint("/swagger/v2/swagger.json", "MyTest Demo"));
+            app.UseSwaggerUI(options => options.SwaggerEndpoint("/swagger/v2/swagger.json", "Main Selection"));
         }
     }
 }

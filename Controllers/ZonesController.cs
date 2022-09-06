@@ -12,7 +12,7 @@ namespace Project2API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
+    //[Authorize]
     public class ZonesController : ControllerBase
     {
         private readonly ConnectedOfficeContext _context;

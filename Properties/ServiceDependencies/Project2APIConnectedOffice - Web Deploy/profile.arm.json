@@ -21,7 +21,7 @@
     },
     "resourceName": {
       "type": "string",
-      "defaultValue": "Project2AppService",
+      "defaultValue": "Project2APIConnectedOffice",
       "metadata": {
         "description": "Name of the main resource to be created by this template."
       }
