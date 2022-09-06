@@ -11,7 +11,7 @@ namespace Project2API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
+    
     public class CategoriesController : ControllerBase
     {
         private readonly ConnectedOfficeContext _context;
@@ -46,6 +46,7 @@ namespace Project2API.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
         [HttpPut("{id}")]
+        [Authorize]
         public async Task<IActionResult> PutCategory(Guid id, Category category)
         {
             if (id != category.CategoryId)
@@ -78,6 +79,7 @@ namespace Project2API.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
         [HttpPost]
+        [Authorize]
         public async Task<ActionResult<Category>> PostCategory(Category category)
         {
             _context.Category.Add(category);
@@ -102,6 +104,7 @@ namespace Project2API.Controllers
 
         // DELETE: api/Categories/5
         [HttpDelete("{id}")]
+        [Authorize]
         public async Task<ActionResult<Category>> DeleteCategory(Guid id)
         {
             var category = await _context.Category.FindAsync(id);

@@ -12,7 +12,7 @@ namespace Project2API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize(Roles = UserRoles.Admin)]
+
     public class DevicesController : ControllerBase
     {
         private readonly ConnectedOfficeContext _context;
@@ -24,7 +24,6 @@ namespace Project2API.Controllers
 
         // GET: api/Devices
         [HttpGet]
-        [Authorize(Roles = UserRoles.Admin)]
         public async Task<ActionResult<IEnumerable<Device>>> GetDevice()
         {
             return await _context.Device.ToListAsync();
@@ -32,7 +31,7 @@ namespace Project2API.Controllers
 
         // GET: api/Devices/5
         [HttpGet("{id}")]
-        
+        [Authorize]
         public async Task<ActionResult<Device>> GetDevice(Guid id)
         {
             var device = await _context.Device.FindAsync(id);
@@ -49,6 +48,7 @@ namespace Project2API.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
         [HttpPut("{id}")]
+        [Authorize]
         public async Task<IActionResult> PutDevice(Guid id, Device device)
         {
             if (id != device.DeviceId)
@@ -81,6 +81,7 @@ namespace Project2API.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
         [HttpPost]
+        [Authorize]
         public async Task<ActionResult<Device>> PostDevice(Device device)
         {
             _context.Device.Add(device);
@@ -105,6 +106,7 @@ namespace Project2API.Controllers
 
         // DELETE: api/Devices/5
         [HttpDelete("{id}")]
+        [Authorize]
         public async Task<ActionResult<Device>> DeleteDevice(Guid id)
         {
             var device = await _context.Device.FindAsync(id);

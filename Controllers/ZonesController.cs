@@ -49,6 +49,7 @@ namespace Project2API.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
         [HttpPut("{id}")]
+        [Authorize]
         public async Task<IActionResult> PutZone(Guid id, Zone zone)
         {
             if (id != zone.ZoneId)
@@ -81,6 +82,7 @@ namespace Project2API.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
         [HttpPost]
+        [Authorize]
         public async Task<ActionResult<Zone>> PostZone(Zone zone)
         {
             _context.Zone.Add(zone);
@@ -105,6 +107,7 @@ namespace Project2API.Controllers
 
         // DELETE: api/Zones/5
         [HttpDelete("{id}")]
+        [Authorize]
         public async Task<ActionResult<Zone>> DeleteZone(Guid id)
         {
             var zone = await _context.Zone.FindAsync(id);
