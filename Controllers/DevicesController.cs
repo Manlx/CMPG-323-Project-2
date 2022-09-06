@@ -12,7 +12,7 @@ namespace Project2API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    //[Authorize(Roles = UserRoles.Admin)]
+    [Authorize(Roles = UserRoles.Admin)]
     public class DevicesController : ControllerBase
     {
         private readonly ConnectedOfficeContext _context;
