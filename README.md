@@ -103,11 +103,18 @@
         <li><a href="https://efundi.nwu.ac.za/access/content/group/b4bd0272-e3c3-4151-b9ce-3888cdadc374/Training/ASP.NET%20Core%20security%20guidance%2025%20August.docx">ASP.NET Core security guidance 25 August.docx</a> </li>
         <li><a href="https://www.dropbox.com/sh/p8fiokfpiqv4gud/AAD1lymwb3IfLp_IWU87FIf3a/05%20CMPG%20323%20-%20CLOUD%20and%20API%20Security%2025%20August.mp4?dl=0">Class Presented on the 25th August by The lecturers of NWU</a></li>
         <li><a href="https://www.dropbox.com/sh/p8fiokfpiqv4gud/AABtdCqaDm1IkXXVKC0AUEDSa/06%20Cmpg%20323%20-%20Cloud%20And%20Api%20Hosting%201%20Sept.m4v?dl=0">Class of 1 September Hosted By Professor Marijke</a></li>
+        <li><a href="https://www.dropbox.com/sh/p8fiokfpiqv4gud/AAD4KuOzucVO9K4hR2ts1R9ia/04%20CMPG%20323%20-%20API%20and%20ASP.NET%20Core%20demo%2018%20Aug.m4v?dl=0">04 CMPG 323 - API and ASP.NET Core demo 18 Aug.m4v</a></li>
+        <li><a href="https://stackoverflow.com/questions/44379560/how-to-enable-cors-in-asp-net-core-webapi">A stackoverflow thread which helped me somewhat to setup my Cors</a></li>
+        <li><a href="https://www.json.org/json-en.html">Learning to work with JSON</a></li>
+        <li><a href="https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal">How to manage my Resource Group</a></li>
         <li><a href="https://efundi.nwu.ac.za/access/content/group/b4bd0272-e3c3-4151-b9ce-3888cdadc374/Training/ASP.NET%20Core%20guidance%2018%20August.docx">ASP.NET Core guidance 18 August.docx</a></li>
         <li><a href="https://stackoverflow.com/questions/7927230/remove-directory-from-remote-repository-after-adding-them-to-gitignore">Remove file which where supposed to be ignored</a></li>
         <li><a href="https://efundi.nwu.ac.za/access/content/group/b4bd0272-e3c3-4151-b9ce-3888cdadc374/Training/ASP.NET%20Core%20Azure%20guidance%201%20Sept.docx">ASP.NET Core Azure guidance 1 Sept.docx</a></li>
         <li><a href="https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-6.0&tabs=visual-studio">Tutorial: Create a web API with ASP.NET Core | Microsoft Docs</a></li>
         <li><a href="https://docs.microsoft.com/en-us/aspnet/visual-studio/overview/2013/aspnet-scaffolding-overview">The Purpose of Scaffolding</a></li>
-        <li><a href="https://docs.microsoft.com/en-us/aspnet/visual-studio/overview/2013/aspnet-scaffolding-overview">The Purpose of Scaffolding</a></li>
+        <li><a href="https://docs.microsoft.com/en-us/aspnet/core/tutorials/web-api-help-pages-using-swagger?view=aspnetcore-3.1">: ASP.NET Core web API documentation with Swagger / OpenAPI</a></li>
+        <li><a href="https://docs.microsoft.com/en-us/learn/paths/create-microservices-with-dotnet/">: Create microservices with .NET and ASP.NET</a></li>
+        <li><a href="https://docs.microsoft.com/en-us/aspnet/core/tutorials/web-api-javascript?view=aspnetcore-6.0">Connecting my javascript Website to my API</a></li>
+        <li><a href="https://stackoverflow.com/questions/36975619/how-to-call-a-rest-web-service-api-from-javascript">Letting my Javascript interface with my API</a></li>
     </ul>
 </div>
