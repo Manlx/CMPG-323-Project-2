@@ -36,7 +36,7 @@ namespace Project2API
                 c.SwaggerDoc("v2", new OpenApiInfo
                 {
                     Title = "Project 2 34551875",
-                    Version = "V1.2.1 JWT"
+                    Version = "V1.2.3 JWT"
                 });
                 c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme()
                 {
