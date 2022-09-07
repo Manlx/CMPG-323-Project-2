@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Project2API.Models;
@@ -23,7 +22,7 @@ namespace Project2API.Controllers
 
         // GET: api/Categories
         [HttpGet]
-       
+        //[Microsoft.AspNetCore.Cors.EnableCors]
         public async Task<ActionResult<IEnumerable<Category>>> GetCategory()
         {
             return await _context.Category.ToListAsync();

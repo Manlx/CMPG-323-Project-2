@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -11,12 +12,13 @@ using Microsoft.OpenApi.Models;
 using Project2API.Authentication;
 using Project2API.Models;
 using System.Text;
-using Microsoft.AspNetCore.Cors;
 
 namespace Project2API
 {
+
     public class Startup
     {
+
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -27,11 +29,7 @@ namespace Project2API
         {
             services.AddControllers();
             services.AddDbContext<ConnectedOfficeContext>(options => options.UseSqlServer("name=ConnectionStrings:ConnStr"));
-            services.AddCors(c =>
-            {
-                c.AddPolicy("AllowOrigin", options => options.AllowAnyOrigin());
-                //c.AddPolicy("AllowOrigin", options => options.WithOrigins("https://localhost:44342"));
-            });
+    
             services.AddSwaggerGen(c => {
                 c.SwaggerDoc("v2", new OpenApiInfo
                 {
@@ -80,6 +78,11 @@ namespace Project2API
                     IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["JWT:Secret"]))
                 };
             });
+
+            services.AddCors(options => options.AddPolicy("ApiCorsPolicy", builder =>
+            {
+                builder.WithOrigins("http://localhost:4200").AllowAnyMethod().AllowAnyHeader();
+            }));
         }
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -88,6 +91,13 @@ namespace Project2API
             {
                 app.UseDeveloperExceptionPage();
             }
+            app.UseCors(
+                builder => builder
+                .AllowAnyOrigin()
+                .AllowAnyMethod()
+                .AllowAnyHeader()
+            );
+
             app.UseRouting();
             app.UseAuthentication();
             app.UseAuthorization();
@@ -97,7 +107,7 @@ namespace Project2API
             });
             app.UseSwagger();
             app.UseSwaggerUI(options => options.SwaggerEndpoint("/swagger/v2/swagger.json", "Main Selection"));
-            app.UseCors(options => options.AllowAnyOrigin());
+
             //app.UseCors(options => options.WithOrigins("https://localhost:44342"));
             app.UseEndpoints(endpoints =>
             {
