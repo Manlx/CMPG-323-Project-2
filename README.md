@@ -93,10 +93,9 @@
 
 <h1>Reference List:</h1>
 <div style="padding: 20px;">
-    <a href="https://developer.ibm.com/articles/what-is-curl-command/"><h3>Learning About cUrl</h3> </a>
-    <a href="https://www.toptal.com/developers/gitignore"><h3>Setting up the basics of my gitignore</h3> </a>
-    <h3>Base Project Setup From highest Impact to least</h3>
+    <h3>Base project research from most to least impactful</h3>
     <ul>
+        <li><a href="https://www.toptal.com/developers/gitignore">Setting up the basics of my gitignore</a></li>
         <li><a href="https://www.c-sharpcorner.com/article/enable-cors-consume-web-api-by-mvc-in-net-core-4/">Adding CORS support for API Calls cross Domains</a></li>
         <li><a href="https://docs.google.com/document/d/1AMr_Gf4FEWC4N53Yea0k4makXSRpV2yIio3zYoHMHpQ/edit?usp=sharing">Custom Compiled Doc Based on All Lower References</a></li>
         <li><a href="https://efundi.nwu.ac.za/access/content/group/b4bd0272-e3c3-4151-b9ce-3888cdadc374/Slides/04%20Introduction%20to%20Cloud%20and%20API%20Security/04%20Intro%20to%20Cloud.pptx">Video tutorials provided in slides: 04 Intro to Cloud.pptx</a></li>
@@ -107,14 +106,20 @@
         <li><a href="https://stackoverflow.com/questions/44379560/how-to-enable-cors-in-asp-net-core-webapi">A stackoverflow thread which helped me somewhat to setup my Cors</a></li>
         <li><a href="https://www.json.org/json-en.html">Learning to work with JSON</a></li>
         <li><a href="https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal">How to manage my Resource Group</a></li>
+        <li><a href="https://swagger.io/docs/specification/2-0/what-is-swagger/">Understand the purpose of swagger</a></li>
         <li><a href="https://efundi.nwu.ac.za/access/content/group/b4bd0272-e3c3-4151-b9ce-3888cdadc374/Training/ASP.NET%20Core%20guidance%2018%20August.docx">ASP.NET Core guidance 18 August.docx</a></li>
         <li><a href="https://stackoverflow.com/questions/7927230/remove-directory-from-remote-repository-after-adding-them-to-gitignore">Remove file which where supposed to be ignored</a></li>
         <li><a href="https://efundi.nwu.ac.za/access/content/group/b4bd0272-e3c3-4151-b9ce-3888cdadc374/Training/ASP.NET%20Core%20Azure%20guidance%201%20Sept.docx">ASP.NET Core Azure guidance 1 Sept.docx</a></li>
         <li><a href="https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-6.0&tabs=visual-studio">Tutorial: Create a web API with ASP.NET Core | Microsoft Docs</a></li>
         <li><a href="https://docs.microsoft.com/en-us/aspnet/visual-studio/overview/2013/aspnet-scaffolding-overview">The Purpose of Scaffolding</a></li>
-        <li><a href="https://docs.microsoft.com/en-us/aspnet/core/tutorials/web-api-help-pages-using-swagger?view=aspnetcore-3.1">: ASP.NET Core web API documentation with Swagger / OpenAPI</a></li>
-        <li><a href="https://docs.microsoft.com/en-us/learn/paths/create-microservices-with-dotnet/">: Create microservices with .NET and ASP.NET</a></li>
+        <li><a href="https://docs.microsoft.com/en-us/aspnet/core/tutorials/web-api-help-pages-using-swagger?view=aspnetcore-3.1">ASP.NET Core web API documentation with Swagger / OpenAPI</a></li>
+        <li><a href="https://docs.microsoft.com/en-us/learn/paths/create-microservices-with-dotnet/">Create microservices with .NET and ASP.NET</a></li>
         <li><a href="https://docs.microsoft.com/en-us/aspnet/core/tutorials/web-api-javascript?view=aspnetcore-6.0">Connecting my javascript Website to my API</a></li>
         <li><a href="https://stackoverflow.com/questions/36975619/how-to-call-a-rest-web-service-api-from-javascript">Letting my Javascript interface with my API</a></li>
+        <li><a href="https://developer.ibm.com/articles/what-is-curl-command/">Learning About cUrl</a></li>
+        <li><a href="https://blog.openreplay.com/ajax-battle-xmlhttprequest-vs-the-fetch-api">The difference between Fetch and XMLHttpRequest</a></li>
+        <li><a href="https://www.uuidgenerator.net/">Generation of UUIDs Version 4 to test POST functionality</a></li>
+        <li><a href="https://www.redhat.com/en/topics/api/what-is-a-rest-api#:~:text=A%20REST%20API%20(also%20known,by%20computer%20scientist%20Roy%20Fielding.">Reading up about RESTful</a></li>
+        <li><a href="https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository">How to remove accidentally Added Sensitive Data to Github</a></li>
     </ul>
 </div>
