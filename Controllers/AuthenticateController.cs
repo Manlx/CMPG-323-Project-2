@@ -7,7 +7,6 @@ using Microsoft.IdentityModel.Tokens;
 using Project2API.Authentication;
 using System;
 using System.Collections.Generic;
-using System.Data;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
@@ -17,7 +16,7 @@ namespace Project2API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    //[Authorize]
+
     public class AuthenticateController : ControllerBase
     {
         private readonly UserManager<ApplicationUser> userManager;
