@@ -15,7 +15,6 @@ namespace Project2API.Controllers
     [Route("api/[controller]")]
     [ApiController]
     //[Authorize]
-    [EnableCors]
 
     public class ZonesController : ControllerBase
     {

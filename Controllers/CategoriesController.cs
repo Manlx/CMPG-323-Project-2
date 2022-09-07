@@ -12,7 +12,6 @@ namespace Project2API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [EnableCors]
     public class CategoriesController : ControllerBase
     {
         private readonly ConnectedOfficeContext _context;
@@ -24,6 +23,7 @@ namespace Project2API.Controllers
 
         // GET: api/Categories
         [HttpGet]
+       
         public async Task<ActionResult<IEnumerable<Category>>> GetCategory()
         {
             return await _context.Category.ToListAsync();

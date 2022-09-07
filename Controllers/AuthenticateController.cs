@@ -17,7 +17,6 @@ namespace Project2API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [EnableCors]
 
     public class AuthenticateController : ControllerBase
     {
@@ -91,13 +90,17 @@ namespace Project2API.Controllers
 
             if (!await roleManager.RoleExistsAsync(UserRoles.User))
                 await roleManager.CreateAsync(new IdentityRole(UserRoles.User));
+            if (await roleManager.RoleExistsAsync(UserRoles.User))
+            {
+                await userManager.AddToRoleAsync(user, UserRoles.User);
 
-            return Ok(new Response { Status = "Success", Message = "User created successfully!" });
+            }
+                return Ok(new Response { Status = "Success", Message = "User created successfully!" });
         }
 
         [HttpPost]
         [Route("register-admin")]
-        [Authorize(Roles = UserRoles.Admin)]
+        [Authorize(Roles = UserRoles.User)]
         public async Task<IActionResult> RegisterAdmin([FromBody] RegisterModel model)
         {
             var userExists = await userManager.FindByNameAsync(model.Username);

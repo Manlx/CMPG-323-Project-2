@@ -12,7 +12,6 @@ namespace Project2API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [EnableCors]
 
     public class DevicesController : ControllerBase
     {
