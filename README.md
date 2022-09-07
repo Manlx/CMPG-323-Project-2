@@ -18,7 +18,7 @@
 <h3>Access</h3>
 <a href="https://project2apiconnectedoffice.azurewebsites.net/swagger/index.html">Swagger Documentation Can be found here</a>
 <ul>
-    <li></li>
+    <li>Only Registered Users can register Admins</li>
     <li>All Get End points that have been made available are unrestricted</li>
     <li>All other endpoints require atleast base level authentication via a Json Web Token</li>
     <li>Users can register via the Register End point available under Authentication</li>
@@ -94,13 +94,17 @@
 <h1>Reference List:</h1>
 <div style="padding: 20px;">
     <a href="https://developer.ibm.com/articles/what-is-curl-command/"><h3>Learning About cUrl</h3> </a>
+    <a href="https://www.toptal.com/developers/gitignore"><h3>Setting up the basics of my gitignore</h3> </a>
     <h3>Base Project Setup From highest Impact to least</h3>
     <ul>
+        <li><a href="https://www.c-sharpcorner.com/article/enable-cors-consume-web-api-by-mvc-in-net-core-4/">Adding CORS support for API Calls cross Domains</a></li>
         <li><a href="https://docs.google.com/document/d/1AMr_Gf4FEWC4N53Yea0k4makXSRpV2yIio3zYoHMHpQ/edit?usp=sharing">Custom Compiled Doc Based on All Lower References</a></li>
         <li><a href="https://efundi.nwu.ac.za/access/content/group/b4bd0272-e3c3-4151-b9ce-3888cdadc374/Slides/04%20Introduction%20to%20Cloud%20and%20API%20Security/04%20Intro%20to%20Cloud.pptx">Video tutorials provided in slides: 04 Intro to Cloud.pptx</a></li>
         <li><a href="https://efundi.nwu.ac.za/access/content/group/b4bd0272-e3c3-4151-b9ce-3888cdadc374/Training/ASP.NET%20Core%20security%20guidance%2025%20August.docx">ASP.NET Core security guidance 25 August.docx</a> </li>
         <li><a href="https://www.dropbox.com/sh/p8fiokfpiqv4gud/AAD1lymwb3IfLp_IWU87FIf3a/05%20CMPG%20323%20-%20CLOUD%20and%20API%20Security%2025%20August.mp4?dl=0">Class Presented on the 25th August by The lecturers of NWU</a></li>
+        <li><a href="https://www.dropbox.com/sh/p8fiokfpiqv4gud/AABtdCqaDm1IkXXVKC0AUEDSa/06%20Cmpg%20323%20-%20Cloud%20And%20Api%20Hosting%201%20Sept.m4v?dl=0">Class of 1 September Hosted By Professor Marijke</a></li>
         <li><a href="https://efundi.nwu.ac.za/access/content/group/b4bd0272-e3c3-4151-b9ce-3888cdadc374/Training/ASP.NET%20Core%20guidance%2018%20August.docx">ASP.NET Core guidance 18 August.docx</a></li>
+        <li><a href="https://stackoverflow.com/questions/7927230/remove-directory-from-remote-repository-after-adding-them-to-gitignore">Remove file which where supposed to be ignored</a></li>
         <li><a href="https://efundi.nwu.ac.za/access/content/group/b4bd0272-e3c3-4151-b9ce-3888cdadc374/Training/ASP.NET%20Core%20Azure%20guidance%201%20Sept.docx">ASP.NET Core Azure guidance 1 Sept.docx</a></li>
         <li><a href="https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-6.0&tabs=visual-studio">Tutorial: Create a web API with ASP.NET Core | Microsoft Docs</a></li>
         <li><a href="https://docs.microsoft.com/en-us/aspnet/visual-studio/overview/2013/aspnet-scaffolding-overview">The Purpose of Scaffolding</a></li>
