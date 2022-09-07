@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Project2API.Models;
@@ -11,7 +12,7 @@ namespace Project2API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    
+    [EnableCors]
     public class CategoriesController : ControllerBase
     {
         private readonly ConnectedOfficeContext _context;

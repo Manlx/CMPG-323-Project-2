@@ -4,6 +4,7 @@ using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Project2API.Authentication;
@@ -14,7 +15,8 @@ namespace Project2API.Controllers
     [Route("api/[controller]")]
     [ApiController]
     //[Authorize]
-    
+    [EnableCors]
+
     public class ZonesController : ControllerBase
     {
         private readonly ConnectedOfficeContext _context;
