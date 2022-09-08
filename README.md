@@ -33,12 +33,28 @@
     <li>Put</li>
     <li>Delte</li>
 </ul>
+<h3>The three main endpoints are accessable via the following links</h3>
+<ul>
+    <li>
+        <a href="https://project2apiconnectedoffice.azurewebsites.net/api/Categories">Can be Used for Categories</a>
+        <a href="https://project2apiconnectedoffice.azurewebsites.net/api/Devices">Can be Used for Devices</a>
+        <a href="https://project2apiconnectedoffice.azurewebsites.net/api/Zones">Can be Used for Zones</a>
+    </li>
+</ul>
 <h3>The Registration And Login End points works as follows:</h3>
 <h4>
     Register and Login is available to everyone
     Register-Admin is only available to Authenticated Users
     Note: All Three endpoints are Use POST
+    <ul>
+        <li>
+            <a href="https://project2apiconnectedoffice.azurewebsites.net/api/Authenticate/login">Login</a>
+            <a href="https://project2apiconnectedoffice.azurewebsites.net/api/Authenticate/register">Registering Users</a>
+            <a href="https://project2apiconnectedoffice.azurewebsites.net/api/Authenticate/register-admin">Registering Admin</a>
+        </li>
+    </ul>
 </h4>
+
 <img src="https://mfdot.com/API.drawio.svg" alt="" srcset=""><br>
 <!-- ![API drawio](https://user-images.githubusercontent.com/74509303/187557775-805d6391-8118-4870-897e-4ebd9d3fc2fb.svg) -->
 
