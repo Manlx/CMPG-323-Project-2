@@ -24,19 +24,21 @@
     <li>Users can register via the Register End point available under Authentication</li>
     <li>Each Token is only valid for 1 hour</li>
 </ul>
-<h3>Callable HTTP Requests:</h3>
-<h4>All GETS</h4>
+<h3>List of Enpoints:</h3>
+<h4>All 3 Categories have the following endpoints</h4>
 <ul>
-    <li>https://project2apiconnectedoffice.azurewebsites.net/api/Categories</li>
-    <li>https://project2apiconnectedoffice.azurewebsites.net/api/Devices</li>
-    <li>https://project2apiconnectedoffice.azurewebsites.net/api/Zones</li>
+    <li>Post</li>
+    <li>Get</li>
+    <li>Get by ID</li>
+    <li>Put</li>
+    <li>Delte</li>
 </ul>
-<h4>All GETS by ID</h4>
-<ul>
-    <li>https://project2apiconnectedoffice.azurewebsites.net/api/Categories/{ID}</li>
-    <li>https://project2apiconnectedoffice.azurewebsites.net/api/Devices/{ID}</li>
-    <li>https://project2apiconnectedoffice.azurewebsites.net/api/Zones/{ID}</li>
-</ul>
+<h3>The Registration And Login End points works as follows:</h3>
+<h4>
+    Register and Login is available to everyone
+    Register-Admin is only available to Authenticated Users
+    Note: All Three endpoints are Use POST
+</h4>
 <img src="https://mfdot.com/API.drawio.svg" alt="" srcset=""><br>
 <!-- ![API drawio](https://user-images.githubusercontent.com/74509303/187557775-805d6391-8118-4870-897e-4ebd9d3fc2fb.svg) -->
 
@@ -47,7 +49,6 @@
     Microsoft Entity framework. <br>
     <img src="https://mfdot.com/Database%20ERD.drawio.svg">
 <!--     ![Database ERD drawio](https://user-images.githubusercontent.com/74509303/187557724-ee264cae-5d52-4bb6-b692-6e4cbd690392.svg) -->
-
 </p>
 
 <h1>There will be 6 Branches:</h1>
@@ -89,6 +90,15 @@
     ✅Created Published API to Azure<br>
     ✅Added JWT<br>
     ❎Added API Manager<br>
+    <br>
+    🎈2022-09-08: <br>
+    ✅Created Azure Database<br>
+    ✅Created Local API<br>
+    ✅Created Local Database<br>
+    ✅Connected Local API to Local database<br>
+    ✅Created Published API to Azure<br>
+    ✅Added JWT<br>
+    ✅Added API Manager<br>
 </p>
 
 <h1>Reference List:</h1>
