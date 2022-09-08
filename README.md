@@ -1,3 +1,4 @@
+<body>
 <h1>CMPG-323-Project-2</h1>
 <p>Project 2 for CMPG 323. In this project we will be designing an API.</p>
 <p>
@@ -35,11 +36,9 @@
 </ul>
 <h3>The three main endpoints are accessable via the following links</h3>
 <ul>
-    <li>
-        <a href="https://project2apiconnectedoffice.azurewebsites.net/api/Categories">Can be Used for Categories</a>
-        <a href="https://project2apiconnectedoffice.azurewebsites.net/api/Devices">Can be Used for Devices</a>
-        <a href="https://project2apiconnectedoffice.azurewebsites.net/api/Zones">Can be Used for Zones</a>
-    </li>
+    <li><a href="https://project2apiconnectedoffice.azurewebsites.net/api/Categories">Can be Used for Categories</a></li>
+    <li><a href="https://project2apiconnectedoffice.azurewebsites.net/api/Devices">Can be Used for Devices</a></li>
+    <li><a href="https://project2apiconnectedoffice.azurewebsites.net/api/Zones">Can be Used for Zones</a></li>
 </ul>
 <h3>The Registration And Login End points works as follows:</h3>
 <h4>
@@ -47,11 +46,9 @@
     Register-Admin is only available to Authenticated Users
     Note: All Three endpoints are Use POST
     <ul>
-        <li>
-            <a href="https://project2apiconnectedoffice.azurewebsites.net/api/Authenticate/login">Login</a>
-            <a href="https://project2apiconnectedoffice.azurewebsites.net/api/Authenticate/register">Registering Users</a>
-            <a href="https://project2apiconnectedoffice.azurewebsites.net/api/Authenticate/register-admin">Registering Admin</a>
-        </li>
+        <li><a href="https://project2apiconnectedoffice.azurewebsites.net/api/Authenticate/login">Login</a></li>
+        <li><a href="https://project2apiconnectedoffice.azurewebsites.net/api/Authenticate/register">Registering Users</a></li>
+        <li><a href="https://project2apiconnectedoffice.azurewebsites.net/api/Authenticate/register-admin">Registering Admin</a></li>
     </ul>
 </h4>
 
