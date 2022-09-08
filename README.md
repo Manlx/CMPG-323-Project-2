@@ -121,5 +121,6 @@
         <li><a href="https://www.uuidgenerator.net/">Generation of UUIDs Version 4 to test POST functionality</a></li>
         <li><a href="https://www.redhat.com/en/topics/api/what-is-a-rest-api#:~:text=A%20REST%20API%20(also%20known,by%20computer%20scientist%20Roy%20Fielding.">Reading up about RESTful</a></li>
         <li><a href="https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository">How to remove accidentally Added Sensitive Data to Github</a></li>
+        <li><a href="https://developer.okta.com/blog/2021/08/02/fix-common-problems-cors">Implementing Fetch API to Javascript</a></li>
     </ul>
 </div>
