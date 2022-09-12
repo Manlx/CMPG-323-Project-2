@@ -1,4 +1,3 @@
-<body>
 <h1>CMPG-323-Project-2</h1>
 <p>Project 2 for CMPG 323. In this project we will be designing an API.</p>
 <p>
@@ -147,3 +146,4 @@
         <li><a href="https://developer.okta.com/blog/2021/08/02/fix-common-problems-cors">Implementing Fetch API to Javascript</a></li>
     </ul>
 </div>
+<img src="https://mfdot.com/API%20Endpoints.PNG" alt="">
